@@ -1,0 +1,29 @@
+body {
+  font-family: monospace;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+button{
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: rgb(82, 95, 120);
+  color: white;
+  font-weight: medium;
+  cursor: pointer;
+}
+
+#submit{
+  margin-top: 1em;
+}
